@@ -79,3 +79,74 @@ a:hover{
     right: 5px;
     font-family: 'Miriam Libre', sans-serif;
 }
+
+form{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+   /* border: 2px solid white;*/
+    width:50%;
+}
+
+p4{
+    margin-left: 25%;
+    margin-bottom: 30px;
+    color:white;
+    font-family: 'Miriam Libre', sans-serif;
+    left: 25%;
+
+}
+
+p{
+    color: white;
+    font-family: 'Miriam Libre', sans-serif;
+    margin-left:20%;
+
+
+}
+
+h2{
+    color:orange;
+    font-family: 'Miriam Libre', sans-serif;
+    margin-left: 5px;
+    font-size: 35px;
+    text-align: center;
+    
+
+}
+
+#aclaracion{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+#genero{
+    margin-left: 88px;
+}
+
+#edad {
+    margin-left: 106px;
+}
+
+#consulta{
+    margin-left: 16px;
+}
+
+#email{
+    margin-left: 5px;
+}
+
+textarea{
+    height: 150px;
+    width: 313px;
+
+}
+
+select{
+    width: 164px;
+}
+#submit{
+    margin-left: 69%;
+}
+
