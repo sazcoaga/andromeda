@@ -2,6 +2,10 @@
     margin: 0; 
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+}
 header{
     margin-bottom: 35px;
     border-bottom: 1px  solid orange;
@@ -9,11 +13,14 @@ header{
     
 }
 
-#andromeda {
+h1 {
 
     font-size: 50px;
     margin-bottom: 25px;
-    font-family:  'Righteous', cursive;;
+    /*font-family:  'Righteous', cursive;*/
+    font-family: 'Miriam Libre', sans-serif;
+    color: white;
+
 }
 
 
@@ -22,19 +29,53 @@ header h2 {
     display: block;
     width: auto;
     margin-left: 105px;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: normal;
+
+
 
 }
+
+.miembro{
+    font-family: 'Miriam Libre', sans-serif;
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 30px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+p1, p2{
+    color:white;
+    float:left;
+    width: 35%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Miriam Libre', sans-serif;
+}
+
 
 #nosotros {
     margin-left: 15px;
 }
 
 a, a:visited{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
-a:hover {
+
+a:hover{
      color: orange;
+     
+}
+
+#inicio{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-family: 'Miriam Libre', sans-serif;
 }
