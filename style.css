@@ -1,22 +1,12 @@
 * {
-    margin: 0; 
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-body{
-    background-color: black;
-}
-header{
-    margin-bottom: 35px;
-    border-bottom: 1px  solid orange;
-    height: 130px;
-    
-}
-
-h1 {
-
-    font-size: 50px;
-    margin-bottom: 15px;
+/* Cambio el color del Background
+*/
+#company-name{
+   font-size: 50px;
+    margin-bottom: 10px;
     /*font-family:  'Righteous', cursive;*/
     font-family: 'Miriam Libre', sans-serif;
     color: white;
@@ -24,129 +14,246 @@ h1 {
 }
 
 
+#navegacion{
+  background: black;
+  border-radius: 0;
+  border: 1px solid black;
+  border-bottom: 1px solid white;
+}
+
+li a {
+  
+  
+  margin-left: 10%px;
+  font-size: 20px;
+  font-family: "Miriam Libre", sans-serif;
+  font-weight: normal;
+
+}
+body {
+  /*background: #232526; /* fallback for old browsers */
+ /* background: -webkit-linear-gradient(
+    to left,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+ /* background: linear-gradient(
+    to left,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-color: black;
+  padding: 0;
+}
+/*header {
+  margin-bottom: 35px;
+  border-bottom: 1px solid orange;
+  height: 130px;
+}*/
+
+
+/*
 header h2 {
-    float: left; 
-    display: block;
-    width: auto;
-    margin-left: 105px;
-    font-size: 20px;
-    font-family: 'Miriam Libre', sans-serif;
-    font-weight: normal;
+  float: left;
+  display: block;
+  width: auto;
+  margin-left: 105px;
+  font-size: 20px;
+  font-family: "Miriam Libre", sans-serif;
+  font-weight: normal;
+}*/
 
-
-
+.miembro {
+  font-family: "Miriam Libre", sans-serif;
+  float: left;
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 30px;
+  border: 2px solid white;
+  text-align: center;
 }
 
-.miembro{
-    font-family: 'Miriam Libre', sans-serif;
-    float: left;
-    width: 35%;
-    margin-left: 10%;
-    margin-top: 30px;
-    border: 2px solid white;
-    text-align: center;
+p1,
+p2 {
+  color: white;
+  float: left;
+  width: 35%;
+  margin-left: 10%;
+  text-align: center;
+  margin-top: 5px;
+  font-family: "Miriam Libre", sans-serif;
 }
-
-p1, p2{
-    color:white;
-    float:left;
-    width: 35%;
-    margin-left: 10%;
-    text-align: center;
-    margin-top: 5px;
-    font-family: 'Miriam Libre', sans-serif;
-}
-
 
 #nosotros {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
-a, a:visited{
-    color: white;
-    text-decoration: none;
+a,
+a:visited {
+  color: white;
+  text-decoration: none;
 }
 
-
-a:hover{
-     color: orange;
-     
+a:hover {
+  color: orange;
 }
 
-#inicio{
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-    font-family: 'Miriam Libre', sans-serif;
+#inicio {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-family: "Miriam Libre", sans-serif;
 }
 
-form{
-    position: absolute;
-    top: 35%;
-    left: 30%;
-   /* border: 2px solid white;*/
-    width:50%;
+form {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  /* border: 2px solid white;*/
+  width: 50%;
 }
 
-p4{
-    margin-left: 33%;
-    margin-bottom: 30px;
-    color:white;
-    font-family: 'Miriam Libre', sans-serif;
-    left: 25%;
-
+p4 {
+  margin-left: 33%;
+  margin-bottom: 30px;
+  color: white;
+  font-family: "Miriam Libre", sans-serif;
+  left: 25%;
 }
 
-p{
-    color: white;
-    font-family: 'Miriam Libre', sans-serif;
-    margin-left:20%;
-
-
+p {
+  color: white;
+  font-family: "Miriam Libre", sans-serif;
+  margin-left: 20%;
 }
 
-h2{
-    color:orange;
-    font-family: 'Miriam Libre', sans-serif;
-    margin-left: 5px;
-    font-size: 35px;
-    text-align: center;
-    
-
+h2 {
+  color: orange;
+  font-family: "Miriam Libre", sans-serif;
+  margin-left: 5px;
+  font-size: 35px;
+  text-align: center;
 }
 
-#aclaracion{
-    margin-bottom: 25px;
-    text-align: center;
+#aclaracion {
+  margin-bottom: 25px;
+  text-align: center;
 }
 
-
-#genero{
-    margin-left: 88px;
+#genero {
+  margin-left: 88px;
 }
 
 #edad {
-    margin-left: 106px;
+  margin-left: 106px;
 }
 
-#consulta{
-    margin-left: 16px;
+#consulta {
+  margin-left: 16px;
 }
 
-#email{
-    margin-left: 5px;
+#email {
+  margin-left: 5px;
 }
 
-textarea{
-    height: 150px;
-    width: 313px;
-
+textarea {
+  height: 150px;
+  width: 313px;
 }
 
-select{
-    width: 164px;
+select {
+  width: 164px;
 }
-#submit{
-    margin-left: 69%;
+#submit {
+  margin-left: 69%;
 }
 
+/* Agrego CSS del Slider */
+
+.slider {
+  width: 600px;
+  height: 400px;
+  background: url(1.jpeg);
+  margin: 100px auto;
+  animation: slide 20s infinite;
+}
+@keyframes slide {
+  25% {
+    background: url(2.jpg);
+  }
+  50% {
+    background: url(3.jpg);
+  }
+
+  75% {
+    background: url(4.jpeg);
+  }
+
+  100% {
+    background: url(1.jpeg);
+  }
+}
+
+/* */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.container .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 35px;
+  text-align: center;
+  transition: all 0.25s;
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+  width: 330px;
+  height: 228px;
+}
+
+.container .card h3 {
+  font-weight: 1000;
+  font-family: "Poppins", sans-serif;
+  color: rgb(51, 41, 41);
+}
+/*
+.container .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+*/
+
+.carta {
+  position: relative;
+  text-align: justify;
+  margin-left: 10px;
+  padding: 10px;
+}
