@@ -4,36 +4,55 @@
 }
 /* Cambio el color del Background
 */
+#company-name{
+   font-size: 50px;
+    margin-bottom: 10px;
+    /*font-family:  'Righteous', cursive;*/
+    font-family: 'Miriam Libre', sans-serif;
+    color: white;
 
+}
+
+
+#navegacion{
+  background: black;
+  border-radius: 0;
+  border: 1px solid black;
+  border-bottom: 1px solid white;
+}
+
+li a {
+  
+  
+  margin-left: 10%px;
+  font-size: 20px;
+  font-family: "Miriam Libre", sans-serif;
+  font-weight: normal;
+
+}
 body {
-  background: #232526; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
+  /*background: #232526; /* fallback for old browsers */
+ /* background: -webkit-linear-gradient(
     to left,
     #414345,
     #232526
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
+ /* background: linear-gradient(
     to left,
     #414345,
     #232526
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background-color: black;
   padding: 0;
 }
-header {
+/*header {
   margin-bottom: 35px;
   border-bottom: 1px solid orange;
   height: 130px;
-}
+}*/
 
-h1 {
-  font-size: 50px;
-  margin-bottom: 15px;
-  /*font-family:  'Righteous', cursive;*/
-  font-family: "Miriam Libre", sans-serif;
-  color: white;
-}
 
+/*
 header h2 {
   float: left;
   display: block;
@@ -42,7 +61,7 @@ header h2 {
   font-size: 20px;
   font-family: "Miriam Libre", sans-serif;
   font-weight: normal;
-}
+}*/
 
 .miembro {
   font-family: "Miriam Libre", sans-serif;
