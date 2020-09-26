@@ -13,12 +13,20 @@
 
 }
 
+h1{
+  font-size: 50px;
+    margin-bottom: 10px;
+    /*font-family:  'Righteous', cursive;*/
+    font-family: 'Miriam Libre', sans-serif;
+    color: #131E27;
+    border-bottom: 3px solid #131E27;
+}
 
 #navegacion{
-  background: black;
+  background: #0C3E65;
   border-radius: 0;
-  border: 1px solid black;
-  border-bottom: 1px solid white;
+  border: 1px solid #0C3E65;
+  border-bottom: 3px solid #131E27;
 }
 
 li a {
@@ -42,7 +50,7 @@ body {
     #414345,
     #232526
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-color: black;
+background-color: #7FB3D5;
   padding: 0;
 }
 /*header {
@@ -103,6 +111,13 @@ a:hover {
   bottom: 5px;
   right: 5px;
   font-family: "Miriam Libre", sans-serif;
+}
+
+#inicial{
+  position: absolute;
+  right: 5px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 form {
@@ -260,6 +275,88 @@ select {
   padding: 10px;
 
 }
+.flex-container{
+  display:flex;
+  justify-content: space-between;
+  height: auto;
+  align-items: center;
+  flex-flow: row wrap;
+  /*background-color: orange;
+  border: 2px solid white;*/
+  padding: 10px;
+  margin-top: 110px;
+}
+
+.flex-container div{
+  color:white;
+  background-color: #0C3E65;
+  width: 300px;
+  height: 450px;
+  margin:10px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 25px;
+  line-height: 35px;
+  padding: 10px;
+  padding-top: 10px;
+  font-family: "Miriam Libre", sans-serif;
+  
+
+
+
+}
+
+.flex-container div section{
+  background-color: #131E27;
+  border: 1px solid white;
+  height: 75%;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top:10%;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  padding: 30px;
+  padding-top: 100px;
+  color:white;
+
+  
+
+}
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-25px);
+    transform: translateY(-25px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+.item:hover{
+  border: 5px solid #131E27;
+  animation: bounce 1s;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6);
+  
+
+}
+
+/*
+.seccion:hover{
+  width: 320px;
+  background-color: orange;
+  margin-left: -25px;
+  height: 340px;
+  border-radius: 10px;
+  border: 1px solid orange;
+}*/
 
 @media(min-width: 992px)
 {
@@ -271,10 +368,11 @@ select {
     font-size: 50px;
 
   }
+
+
+  
+
 }
-
-
-
 
 
 
@@ -284,10 +382,20 @@ select {
 
   
   }
+
+  
+
 }
 
 @media (max-width: 767px){
 .miembro{
     font-size: 10px;
 }
+
+
 }
+
+
+
+
+
