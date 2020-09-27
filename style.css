@@ -460,7 +460,7 @@ font-family: 'Almarai', sans-serif;
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  margin: 0 20px;
+  margin: 0 30px;
   filter: grayscale(100%);
   transition: .3s;
   cursor: pointer;
@@ -475,7 +475,8 @@ font-family: 'Almarai', sans-serif;
 .testimonial-contents
 {
   max-width: 600px;
-  margin: auto;  
+  margin: auto; 
+
 }
 
 
@@ -491,14 +492,17 @@ display: none;
 
 .testimonial p
 {
-  color: #5c5c5c;
-  margin-bottom: 20px;  
+  color: #9933ff;
+  margin-bottom: 20px;
+  font-size: 25px; 
+  font-family: 'Epilogue', sans-serif;
+
 }
 
 .testimonial .description
 {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 15px;
-
+   font-family: 'Raleway', sans-serif;
+   font-size: 20px;
+   text-align: center;
+   color: gray;
 }
