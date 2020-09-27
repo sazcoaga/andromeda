@@ -462,16 +462,17 @@ font-family: 'Almarai', sans-serif;
   border-radius: 50%;
   margin: 0 20px;
   filter: grayscale(100%);
-  transition: -3s;
+  transition: .3s;
   cursor: pointer;
 }
 
-.testimonial-pics img:hover
-{
+.testimonial-pics img:hover, .testimonial-pics img.active
+  {
   filter: none;
-} 
+  }
+ 
 
-.testimonial.contents
+.testimonial-contents
 {
   max-width: 600px;
   margin: auto;  
@@ -483,10 +484,10 @@ font-family: 'Almarai', sans-serif;
 display: none;
 }
 
-.testimonial.active
-{
-  display: blo
-}
+.testimonial.active 
+  {
+    display: block;
+  }
 
 .testimonial p
 {

@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
+" charset="u"></script>
+
+
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap" rel="stylesheet"/>
     
@@ -22,7 +27,7 @@
 	<div class="inner-width">
 		<h1>Testimonios de Clientes</h1>
 		<div class="testimonial-pics">
-			<img src="2.jpg"  alt="test-1"   class="active">
+			<img src="2.jpg"  alt="test-1" class="active">
 			<img src="2.jpg" alt="test-2">
 			<img src="2.jpg" alt="test-3">
 			<img src="2.jpg" alt="test-4">
@@ -34,28 +39,52 @@
 						Sofi / Cutest Girl Alive
 				</span>
 			</div>
+
 			<div class="testimonial" id="test-2">
 				<p>Dale dale dale dale dale dale dale dale dale dale dale dale</p>
 				<span class="description">
-						Sofi / Cutest Girl Alive
+						Sofi 2 / Cutest Girl Alive
 				</span>
 			</div>
+
 			<div class="testimonial" id="test-3">
 				<p>Dale dale dale dale  dale dale dale dale dale dale</p>
 				<span class="description">
-						Sofi / Cutest Girl Alive
+						Sofi 3 / Cutest Girl Alive
 				</span>
 			</div>
+
 			<div class="testimonial" id="test-4">
 				<p>Dale dale dale dale dale dale dale dale dale dale dale dale</p>
 				<span class="description">
-						Sofi / Cutest Girl Alive
+						Sofi 4/ Cutest Girl Alive
 				</span>
 			</div>
 		</div>
 	</div>
 </div>
 
+<script type="text/javascript">
+	
+	$('.testimonial-pics img').click(function()
+	{
+		$(".testimonial-pics img").removeClass("active");
+		$(this).addClass("active");
+
+		$(".testimonial").removeClass("active");
+		$("#"+$(this).attr("alt")).addClass("active");
+
+
+	
+
+
+
+	});
+
+
+		
+
+</script>
 
 
   <a href="index.html"><p id="inicio">Volver al Inicio</p> </a>
