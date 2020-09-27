@@ -45,7 +45,8 @@ li a {
   
   margin-left: 10%px;
   font-size: 14px;
-  font-family: "Miriam Libre", sans-serif;
+  /*font-family: "Miriam Libre", sans-serif;*/
+  font-family: 'Jost', sans-serif;
   font-weight: normal;
   color: #0C3E65; 
 
