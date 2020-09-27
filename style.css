@@ -23,7 +23,8 @@ h1{
 }
 
 #navegacion{
-  background: #0C3E65;
+  background: #9933ff
+;
   border-radius: 0;
   border: 1px solid #0C3E65;
   border-bottom: 3px solid #131E27;
@@ -36,6 +37,7 @@ li a {
   font-size: 14px;
   font-family: "Miriam Libre", sans-serif;
   font-weight: normal;
+  color: #0C3E65; 
 
 }
 body {
@@ -50,7 +52,8 @@ body {
     #414345,
     #232526
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-color: #7FB3D5;
+background-color:  #e6ccff
+;
   padding: 0;
 }
 /*header {
@@ -150,6 +153,10 @@ h2 {
   text-align: center;
 }
 
+
+
+
+
 #aclaracion {
   margin-bottom: 25px;
   text-align: center;
@@ -221,6 +228,13 @@ select {
   justify-content: center;
   margin: auto;
 }
+
+  .container .title 
+  {
+
+  }
+
+
 
 .container .card {
   width: 330px;
@@ -396,6 +410,94 @@ select {
 }
 
 
+.jumbotron-fluid
+{
+  background:  #ffffb3
+
+}
 
 
+.jumbotron-fluid h1
+{
+font-family: 'Almarai', sans-serif;
+}
 
+.jumbotron-fluid p
+{
+  color: gray;
+}
+
+
+.testimonial-section
+{
+  background: #f1f1f1;
+  padding: 80px 0;
+}
+
+.inner-width
+{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.testimonial-section h1
+{
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+
+.testimonial-pics
+{
+  padding: 40px 0;
+}
+
+.testimonial-pics img
+{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 20px;
+  filter: grayscale(100%);
+  transition: -3s;
+  cursor: pointer;
+}
+
+.testimonial-pics img:hover
+{
+  filter: none;
+} 
+
+.testimonial.contents
+{
+  max-width: 600px;
+  margin: auto;  
+}
+
+
+.testimonial
+{
+display: none;
+}
+
+.testimonial.active
+{
+  display: blo
+}
+
+.testimonial p
+{
+  color: #5c5c5c;
+  margin-bottom: 20px;  
+}
+
+.testimonial .description
+{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 15px;
+
+}
