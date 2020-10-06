@@ -5,39 +5,36 @@
 /* Cambio el color del Background
 */
 #company-name{
-   font-size: 50px;
+    font-size: 50px;
     margin-bottom: 10px;
-    /*font-family:  'Righteous', cursive;*/
-    /*font-family: 'Miriam Libre', sans-serif;*/
-    font-family: 'Jost', sans-serif;
-
-    color: #8A0808;
+    font-family: 'Megrim', cursive;
+    /*color: #8A0808;*/
+    font-weight: bolder;
+    color:white;
 
 }
 
 #collapsable-nav {
- border-top: 3px solid black;
+ border: none;
 }
 
 #lista a{
-  color:black;
+  color:white;
 
 }
 
 h1{
-  font-size: 50px;
+    font-size: 50px;
     margin-bottom: 10px;
-    /*font-family:  'Righteous', cursive;*/
-    font-family: 'Jost', sans-serif;
-    color: #8A0808 /*#131E27*/;
+    font-family: 'Megrim', cursive;
+    color: white /*#8A0808 /*#131E27*/;
     border-bottom: 3px solid black;
 }
 
 #navegacion{
-  background: #DBA901 /*#9933ff*/;
+  background: black/*#DBA901 /*#9933ff*/;
   border-radius: 0;
-  border: 1px solid #0C3E65;
-  border-bottom: 3px solid black;
+  border: none;
 }
 
 li a {
@@ -45,15 +42,14 @@ li a {
   
   margin-left: 10%px;
   font-size: 14px;
-  /*font-family: "Miriam Libre", sans-serif;*/
-  font-family: 'Jost', sans-serif;
-  font-weight: normal;
-  color: #0C3E65; 
+  font-family: 'Assistant', sans-serif;
+  font-weight: bolder;
+  
 
 }
 body {
   
-background-color:  #DBA901 /*#e6ccff*/;
+background-color: gray/*#DBA901 /*#e6ccff*/;
   padding: 0;
 }
 
@@ -97,7 +93,7 @@ a:hover {
 
 #inicio {
   position: absolute;
-  color: black;
+  color: white /*black;*/
   bottom: 5px;
   right: 5px;
   font-family: 'Jost', sans-serif;
@@ -133,12 +129,12 @@ p {
 }
 
 h2 {
-  color: orange;
-  font-family: 'Jost', sans-serif;
-  margin-left: 5px;
-  font-size: 35px;
-  text-align: center;
-}
+      font-size: 35px;
+    margin-bottom: 10px;
+    font-family: 'Megrim', cursive;
+    font-weight: bolder;
+    color: black /*#8A0808 /*#131E27*/;
+  }
 
 
 
@@ -301,7 +297,7 @@ select {
   line-height: 35px;
   padding: 10px;
   padding-top: 10px;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Assistant', sans-serif;
 
 
 
@@ -341,9 +337,9 @@ select {
   }
 }
 .item:hover{
-  border: 5px solid #131E27;
+  border: 5px solid white;/*#131E27;*/
   animation: bounce 1s;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 7px 5px 5px white;
   
 
 }
@@ -398,10 +394,85 @@ select {
 
 .jumbotron-fluid
 {
-  background:  #8A0808;
+  background: white;/*#8A0808;*/
 
 }
 
+#telefono{
+  margin-top: 10px;
+  width: 90px;
+  
+}
+
+#dialogo{
+
+  width: 150px;
+  }
+
+#listo{
+  margin-top: 10px;
+  width: 90px;
+  margin-bottom: 40px;
+}
+
+
+#paso1, #paso2, #paso3{
+  border-right: 4px solid black;
+  width:33.33%;
+  float:left;
+  text-align: center;
+  height: 350px;
+  font-size: 30px;
+  padding: 40px;
+  padding-top: 10px;
+  font-family: 'Assistant', sans-serif;
+  /*font-family: 'Megrim', cursive;*/
+  color: black;
+  font-weight: bolder;
+
+  }
+
+  .num{
+    font-size: 55px;
+  }
+#paso1{
+ 
+}
+#paso3{
+ border: none;
+ 
+}
+  #paso2{
+    margin
+  }
+
+  section img {
+    width: 50%;
+  }
+
+
+#contenedor{
+  background-color: white;
+  height: 415px;
+  align-content: center;
+  margin-top: 100px;
+  padding-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;s
+}
+/*
+  #contanos{
+  border: 1px solid black;
+  margin-top: 2%;
+  margin-right: %;
+  text-align: center;
+
+    } 
+  #resolvemos {
+  position: absolute;
+  border: 1px solid black;
+}
+*/
 
 .jumbotron-fluid h1
 {
@@ -412,6 +483,7 @@ font-family: 'Jost', sans-serif;
 {
   color: gray;
 }
+
 
 
 .testimonial-section
