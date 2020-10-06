@@ -49,7 +49,7 @@ li a {
 }
 body {
   
-background-color: gray/*#DBA901 /*#e6ccff*/;
+background-color: #9e6b98/*#DBA901 /*#e6ccff*/;
   padding: 0;
 }
 
@@ -130,12 +130,109 @@ p {
 
 h2 {
       font-size: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
     font-family: 'Megrim', cursive;
     font-weight: bolder;
     color: black /*#8A0808 /*#131E27*/;
+    text-align: center;
+    margin-top: 80px;
+
+    
+
   }
 
+hr{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 75px;
+  border: 3px solid black;
+  background-color: white;
+
+}
+
+.enum {
+  font-family: 'Megrim', cursive;
+  font-size: 35px;
+  border: 2px solid black;
+  border-style: dotted;
+  width: 15%;
+  text-align: center;
+  border-radius: 100%;
+  color: black;
+  font-weight: bolder;
+  margin-left: 42.5%;
+  background-color: #9e6b98;
+  opacity: 0.8;
+}
+ 
+ .protocolo{
+  text-align: center;
+  text-align: justify-all;
+  width: 80%;
+  margin-left: 10%;
+  font-family: 'Megrim', cursive;
+  color:black;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+ }
+
+ #protocolos{
+  border: 3px solid black;
+  width: 350px;
+  margin: auto;
+  height: 750px;
+  padding-top: 20px;
+  background-color: #E4CBE1;
+
+ }
+
+ #seccionProtocolo{
+  background-image: url(higiene.jpg);
+  width: 450px;
+  margin:auto;
+  height: 850px;
+  padding-top: 50px;
+
+ }
+
+ footer{
+  border-top: 2px solid black;
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  height: 130px;
+  background-color: #7B4D76;
+
+ }
+
+footer section{
+
+    font-family: 'Assistant', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    background-color: #7B4D76;
+}
+
+#seccion1{
+  
+  width: 150px;
+  float:left;
+  margin-left: 15px;
+  background-color: #7B4D76 ;
+}
+#seccion2{
+  float:right;
+  margin-top: 40px;
+  width: 200px;
+  margin-right: 15px;
+  background-color: #7B4D76 ;
+}
+
+#seccion2 section {
+  text-align: right;
+  background-color: #7B4D76;
+}
 
 
 
@@ -422,7 +519,7 @@ select {
   float:left;
   text-align: center;
   height: 350px;
-  font-size: 30px;
+  font-size: 28px;
   padding: 40px;
   padding-top: 10px;
   font-family: 'Assistant', sans-serif;
@@ -453,12 +550,14 @@ select {
 
 #contenedor{
   background-color: white;
-  height: 415px;
+  height: 450px;
   align-content: center;
   margin-top: 100px;
   padding-top: 30px;
   margin-left: 10px;
-  margin-right: 10px;s
+  margin-right: 10px;
+  border: 10px solid black;
+
 }
 /*
   #contanos{
