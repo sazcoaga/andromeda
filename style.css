@@ -91,13 +91,7 @@ a:hover {
   text-decoration: none;
 }
 
-#inicio {
-  position: absolute;
-  color: white /*black;*/
-  bottom: 5px;
-  right: 5px;
-  font-family: 'Jost', sans-serif;
-}
+
 
 #inicial{
   position: absolute;
@@ -678,15 +672,24 @@ display: none;
    color: black;
 }
 
+#siguiente{
+ 
+ float: right;
+ margin-top: 50px;
+  font-family: 'Megrim', cursive;
+  width: auto;
+  height: auto;
+  text-align: right;
+}
 
-/*background: #232526; / fallback for old browsers */
- /* background: -webkit-linear-gradient(
-    to left,
-    #414345,
-    #232526
-  ); /* Chrome 10-25, Safari 5.1-6 */
- /* background: linear-gradient(
-    to left,
-    #414345,
-    #232526
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#inicio {
+  float: left;
+  color: white /*black;*/;
+  font-family: 'Megrim', cursive;
+  width: auto;
+  height: auto;
+}
+
+#contenido{
+  height: 600px;
+}
