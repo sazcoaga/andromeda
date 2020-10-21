@@ -6,8 +6,8 @@
 
 
 body {
-	background-color: black;
-	color:white;
+	background-image: url("arte.jpg");
+	color:black;
 	font-family: 'Bangers', cursive;
 
 }
@@ -15,7 +15,8 @@ body {
 h1{
 	font-size: 100px;
 	text-align: center;
-	-webkit-text-stroke: 1px red;
+	color:white;
+	-webkit-text-stroke: 3px black;
 
 }
 
@@ -24,27 +25,80 @@ h3{
 	text-align: center;
 	margin-bottom: 100px;
 
+
 }
 
 h2{
 	font-size: 40px;
 	margin-bottom: 30px;
+	text-align: center;
+	color:white;
+	-webkit-text-stroke: 2px black;
 
 }
 
 p{
-	font-size: 30px;
+	font-size: 50px;
 	margin-bottom: 40px;
-	text-align: justify;
-	-webkit-text-stroke: 1px red;
+	text-align: center;
+	
+
+	/*-webkit-text-stroke: 2px black;*/
 	
 }
 
+p1{
+	font-size: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+	border: 10px solid black;
+	background-color: white;
+	width: auto;
+	padding: 5px;
+	margin-left: 33%;
+
+}
+
+p2{
+	font-size: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+	border: 10px solid black;
+	background-color: white;
+	width: auto;
+	padding: 5px;
+	margin-left: 22%;
+
+}
+
+#aclaracion{
+	font-size: 25px;
+	margin-top: 20px;
+	border: 2px solid white;
+
+}
+
+li{
+	font-size: 40px;
+	margin-left: 20px;
+	margin-top: 10px;
+/*-webkit-text-stroke: 3px black;*/
+}
+
+#pregunta{
+	font-size: 30px; 
+}
+
+#codigo{
+	font-size: 20px;
+}
 
 #contenedor{
 	margin:auto;
 	width: 700px;
-	border: 3px solid white;
+	border: 20px solid black;
+	background-color: white;
+	margin-bottom: 30px;
 	padding: 25px;
 	align-content: center;
 }

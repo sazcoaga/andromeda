@@ -377,7 +377,7 @@ select {
 
 .flex-container div{
   color:white;
-  background-color: #0C3E65;
+  background-color: #664662;
   width: 300px;
   height: 450px;
   margin:10px;
@@ -395,7 +395,7 @@ select {
 }
 
 .flex-container div section{
-  background-color: #131E27;
+  background-color: black;/*#131E27;*/
   border: 1px solid white;
   height: 75%;
   width: 95%;
@@ -427,6 +427,7 @@ select {
     transform: translateY(-15px);
   }
 }
+
 .item:hover{
   border: 5px solid white;/*#131E27;*/
   animation: bounce 1s;
@@ -434,6 +435,15 @@ select {
   
 
 }
+
+.seccion:hover {
+  background-color: white;
+  color: black;
+}
+#secreto{
+  color: black;
+}
+
 
 /*
 .seccion:hover{
